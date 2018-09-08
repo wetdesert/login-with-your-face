@@ -23,11 +23,20 @@
  }
 
 
+ .output-by-image {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50%;
+  background-color: white;
+ }
+
 html, body {
   background: #2a2a2a;
   font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
+  position: relative;
 }
 body {
   display: flex;
@@ -107,7 +116,8 @@ header b {
 .controller-panels {
   display: flex;
   flex-direction: row;
-  margin: 9px auto 0;
+  /* margin: 9px auto 0; */
+  margin: 0 10% 0;
 }
 .panel {
   box-sizing: border-box;
@@ -126,7 +136,7 @@ header b {
 .panel:last-child {
   padding: 0 9px 0 22px;
   width: 353px;
-  margin: 66px;
+  margin: 0 48px;
 }
 .panel-row {
   /* display: flex; */
